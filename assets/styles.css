@@ -13,6 +13,10 @@ body{
     box-sizing: border-box;
 }
 
+form {
+  display: flex;
+}
+
 #todo-table form:after{
     margin: 0;
     content: '';
@@ -65,5 +69,7 @@ li:hover{
 
 h1{
     margin-bottom: 0;
-    text-indent: -10000px;
+    text-align: center;
+    color: rgb(199, 240, 249);
+    font-family: sans-serif;
 }
