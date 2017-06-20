@@ -22,6 +22,8 @@ form {
     content: '';
     display: block;
     clear: both;
+    border-color: white;
+    border-width: 2px;
 }
 
 input[type="text"]{
