@@ -12,6 +12,6 @@ app.use(express.static('./'));
 //fire Controllers
 todoController(app);
 
-app.listen(8080, '0.0.0.0', function(){
+app.listen(8080, function(){
   console.log('Server started!');
 });
