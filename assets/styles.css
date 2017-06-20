@@ -64,12 +64,12 @@ li{
 
 li:hover{
     text-decoration: line-through;
-    background: rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0);
 }
 
 h1{
-    margin-bottom: 0;
+    margin-bottom: 15px;
     text-align: center;
-    color: rgb(199, 240, 249);
+    color: rgb(228, 237, 254);
     font-family: sans-serif;
 }
