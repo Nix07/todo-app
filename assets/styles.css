@@ -1,5 +1,5 @@
 body{
-    background: #0d1521;
+    background: #092349;
     font-family: tahoma;
     color: #989898;
 }
@@ -11,6 +11,7 @@ body{
     margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
+    box-shadow: 3px 3px 2px rgb(154, 154, 154);
 }
 
 form {
