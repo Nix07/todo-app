@@ -12,6 +12,5 @@ app.use(express.static('./'));
 //fire Controllers
 todoController(app);
 
-app.listen(8080, function(){
-  console.log('Server started!');
-});
+app.listen(process.env.PORT || 8080);
+console.log('Server Started!');
