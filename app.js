@@ -12,5 +12,6 @@ app.use(express.static('./'));
 //fire Controllers
 todoController(app);
 
-app.listen(3000);
-console.log('You are listening to port 3000');
+app.listen(8080, '0.0.0.0', function(){
+  console.log('Server started!');
+});
